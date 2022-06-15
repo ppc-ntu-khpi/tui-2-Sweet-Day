@@ -1,4 +1,5 @@
-package com.mybank.tui;
+package clidemo;
+
 
 import com.mybank.domain.Bank;
 import com.mybank.domain.CheckingAccount;
@@ -13,17 +14,6 @@ import org.jline.reader.impl.completer.*;
 import org.jline.utils.*;
 import org.fusesource.jansi.*;
 
-/**
- * Sample application to show how jLine can be used.
- *
- * @author sandarenu
- *
- */
-/**
- * Console client for 'Banking' example
- *
- * @author Alexander 'Taurus' Babich
- */
 public class CLIdemo {
 
     public static final String ANSI_RESET = "\u001B[0m";
